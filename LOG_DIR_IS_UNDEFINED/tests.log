@@ -1,0 +1,4 @@
+14:48:08.911 190  [main] INFO  com.javaacademy.shop.Runner - Создали яблоко: Food(super=Product(price=100, name=Яблоко), numberCalories=50)
+14:48:08.914 193  [main] INFO  com.javaacademy.shop.Runner - Создали пиццу: Food(super=Product(price=500, name=Пицца), numberCalories=549)
+14:48:20.553 165  [main] INFO  com.javaacademy.shop.Runner - Создали парацетамол: Drug(super=Product(price=250, name=Paracetamol), recipe=false)
+14:48:29.703 163  [main] INFO  com.javaacademy.shop.RunnerTest - Создали лоротадин: Drug(super=Product(price=500, name=lorotadine), recipe=true)

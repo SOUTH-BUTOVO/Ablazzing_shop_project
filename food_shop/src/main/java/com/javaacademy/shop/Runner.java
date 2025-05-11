@@ -21,6 +21,7 @@ public class Runner {
         Cash cash = new Cash();
         cash.addProductInCash(apple);
         cash.addProductInCash(pizza);
-        System.out.println("список товаров в кассе food: " + cash);
+        System.out.println("список товаров в кассе food:");
+        cash.prtCash();
     }
 }

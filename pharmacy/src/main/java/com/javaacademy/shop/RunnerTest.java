@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 public class RunnerTest {
     public static void main(String[] args) {
         Drug lorotadine = Drug.builder()
-                .name("lorotadine")
+                .name("Lorotadine")
                 .price(BigDecimal.valueOf(500))
                 .recipe(true)
                 .build();
@@ -16,6 +16,7 @@ public class RunnerTest {
 
         Cash cash = new Cash();
         cash.addProductInCash(lorotadine);
-        System.out.println("список товаров в кассе test: " + cash);
+        System.out.println("список товаров в кассе test:");
+        cash.prtCash();
     }
 }

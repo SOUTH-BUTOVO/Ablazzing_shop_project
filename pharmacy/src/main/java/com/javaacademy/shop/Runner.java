@@ -16,6 +16,7 @@ public class Runner {
 
         Cash cash = new Cash();
         cash.addProductInCash(paracetamol);
-        System.out.println("список товаров в кассе drug: " + cash);
+        System.out.println("список товаров в кассе drug:");
+        cash.prtCash();
     }
 }

@@ -14,9 +14,9 @@ import java.math.BigDecimal;
 @SuperBuilder
 public class Drug extends Product {
     @NonNull
-    private final boolean recipe;
+    private final Boolean recipe;
 
-    public Drug(String name, BigDecimal price, boolean recipe) {
+    public Drug(String name, BigDecimal price, Boolean recipe) {
         super(price, name);
         this.recipe = recipe;
     }

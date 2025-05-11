@@ -13,10 +13,10 @@ public class Cash {
     private List<Product> soldProduct = new ArrayList<>();
 
     public void addProductInCash(Product product) {
-        this.soldProduct.add(product);
+        soldProduct.add(product);
     }
 
     public void prtCash() {
-        System.out.println(this.soldProduct);
+        System.out.println(soldProduct);
     }
 }
